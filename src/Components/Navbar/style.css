@@ -1,0 +1,21 @@
+.navbar{
+    width: 200px;
+}
+.link-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.link{
+    font-size: 21px;
+    transition: 300ms;
+
+}
+.link:hover{
+    transform: scale(1.1);
+}
+.link a{
+     color: #005D6A;
+}
