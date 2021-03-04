@@ -13,3 +13,8 @@ body,html,#root{
     height: 100vh;
     background-image: linear-gradient(to bottom,#00c4fd,#00e9fb);
 }
+
+
+input:focus{
+    outline: 0;
+}

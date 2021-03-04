@@ -9,8 +9,8 @@ function About() {
             <section className='group-description'>
                 <p className='description'> Projeto que pega os repositórios de um usuário do Github.</p>
                 <p className='description'> Feito utilizando o React para o Frontend e o axios paraconsumir a API do Github.</p>
-                <p className='description'> Link do projeto no Github: <a href="">link</a></p>
                 <p className='description'>Desenvildo por Alberto José, estudante de Ciência da Computação na UFRPE.</p>
+                <p className='description'> Link do projeto no Github: <a href="https://github.com/albertojcvs/Projetos-Github">link</a></p>
             </section>
 
             <Footer />

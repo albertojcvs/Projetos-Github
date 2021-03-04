@@ -12,11 +12,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:center;
 }
 
 .description{
     font-size: 32px;
     font-family: Karla;
     margin-bottom: 16px;
-
+    text-align: center;
 }
