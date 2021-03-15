@@ -3,9 +3,9 @@ import React from 'react';
 import './style.css';
 
 
-function Button(props) {
+function Button({className,...props}) {
     return (
-        <button>{props.children}</button>
+        <button  className={` button ${className}` } {...props} >{props.children}</button>
     );
 }
 

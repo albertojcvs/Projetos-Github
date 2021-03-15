@@ -11,10 +11,13 @@
 body,html,#root{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom,#00c4fd,#00e9fb);
+    background-color: #00e9fb;
 }
 
+button{
+    cursor: pointer;
+}
 
-input:focus{
+input:focus,button:focus{
     outline: 0;
 }

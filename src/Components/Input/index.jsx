@@ -3,10 +3,10 @@ import React from 'react';
 import './style.css';
 
 
-function Input({className,...props}) {
+function Input({className,...props},ref)  {
     return (
-        <input className={`input ${className}` }  {...props}/>
+        <input ref={ref} className={`input ${className}` }  {...props}/>
     );
 }
 
-export default Input;
+export default React.forwardRef(Input);

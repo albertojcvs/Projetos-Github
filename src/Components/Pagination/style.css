@@ -1,0 +1,27 @@
+.pagination-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.pagination-comand-button{
+    height: 21px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+
+.pagination-button{
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+.pagination-button + .pagination-button{
+    margin-left: 2px;
+}
+
+.current-page{
+    border: none;
+    /* outline: none; */
+}
