@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
@@ -35,7 +35,7 @@ function Home() {
 
         setGithubprojects(response.data);
       } catch (err) {
-        if (err.response.status == 404) {
+        if (err.response.status === 404) {
           alert.show("Usuário não encontrado");
         }
       }
